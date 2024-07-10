@@ -1,0 +1,38 @@
+{
+  "name": "learningcypress",
+  "version": "1.0.0",
+  "description": "cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "automation",
+    "cypress",
+    "java",
+    "script"
+  ],
+  "browsers": [
+    {
+      "name": "chrome",
+      "channel": "stable",
+      "family": "chromium",
+      "displayName": "Chrome",
+      "versionRegex": "Google Chrome",
+      "profilePath": true,
+      "binary": "/path/to/chrome"
+    }
+  ],
+  "author": "LF",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
+    "cypress": "^13.9.0",
+    "init": "^0.1.2"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.5",
+    "cypress-iframe": "^1.0.1",
+    "cypress-real-events": "^1.12.0"
+  }
+}
